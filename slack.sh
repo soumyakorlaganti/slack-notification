@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -e
 BASE_DIR="/home/ec2-user/class-recordings"
 LOG_FILE="$BASE_DIR/recording.log"
 LOCK_FILE="/tmp/class_recording.lock"
