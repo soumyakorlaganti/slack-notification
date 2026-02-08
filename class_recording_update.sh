@@ -20,6 +20,24 @@ fi
 CLASS_NAME="$1"
 RECORDING_FILE="$2"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 if [ -z "${SLACK_WEBHOOK:-}" ]; then
     echo "ERROR: SLACK_WEBHOOK environment variable not set."
     exit 1
